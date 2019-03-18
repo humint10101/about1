@@ -1,7 +1,7 @@
 timezone:    Europe/Berlin
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     "/github-slideshow"
+baseurl:     "/about1"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -17,9 +17,9 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-author:      GitHubTeacher
-description: A fun activity for learning Git and GitHub.
+title:       HumINT 10 1 0 1
+author:      humint10101
+description: About HumINT 10 1 01.
 
 sass:
   style:     :compressed
