@@ -24,7 +24,9 @@ description: About HumINT 10 1 01.
 sass:
   style:     :compressed
 
-theme: jekyll-theme-hacker
+## solarized variant (dark/light)
+solarized:
+  theme:     dark
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
