@@ -88,19 +88,19 @@ $quoteFont: 'droid_serifitalic', cursive;
 // ---------------------------------------------
 @mixin rebase( $rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3 )
 {
-  background-color: $rebase03;
-  color: $rebase1;
+  background-color: $black;
+  color: $green;
   //* { color: $rebase1; }
   body {
-    background-color: $rebase03;
+    background-color: $black;
   }
   .reveal {
-    background-color: $rebase03;
-    color: $rebase1;
+    background-color: $black;
+    color: $green;
     text-shadow: 0 0 1px rgba( $rebase1, .2 );
     -webkit-text-stroke: 1px rgba( $rebase1, .2 );
     h1,h2,h3,h4,h5,h6 {
-      color: $rebase2;
+      color: $green;
       border-color: $rebase0;
       text-shadow: $headingTextShadow;
       a {
@@ -122,8 +122,8 @@ $quoteFont: 'droid_serifitalic', cursive;
     }
     h1,h2,h3,h4,h5,h6,p,li {
       >code, >a>code {
-        background: $rebase1;
-        color: $rebase03;
+        background: $black;
+        color: $green;
         border: 1px solid $rebase1;
       }
     }
@@ -131,7 +131,7 @@ $quoteFont: 'droid_serifitalic', cursive;
       border: 4px solid $rebase1;
     }
     figure.highlight {
-      background: $rebase3;
+      background: $magenta;
     }
   }
 }
