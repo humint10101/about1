@@ -24,9 +24,7 @@ description: A fun activity for learning Git and GitHub.
 sass:
   style:     :compressed
 
-## solarized variant (dark/light)
-solarized:
-  theme:     dark
+theme: jekyll-theme-hacker
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
