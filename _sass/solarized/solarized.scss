@@ -10,6 +10,7 @@
 // Main Variables
 // Solarized base colors
 $black:     #000000;
+$hackerbg:  #151515;
 $base03:    #002b36;
 $base02:    #073642;
 $base01:    #586e75;
@@ -28,7 +29,7 @@ $cyan:      #2aa198;
 $green:     #00ff00;
 
 // Background of the presentation
-$backgroundColor: $black;
+$backgroundColor: $hackerbg;
 
 // Primary/body text
 $mainFont: 'Open Sans', Arial, sans-serif;
@@ -88,14 +89,14 @@ $quoteFont: 'droid_serifitalic', cursive;
 // ---------------------------------------------
 @mixin rebase( $rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3 )
 {
-  background-color: $black;
+  background-color: $hackerbg;
   color: $green;
   //* { color: $rebase1; }
   body {
-    background-color: $black;
+    background-color: $hackerbg;
   }
   .reveal {
-    background-color: $black;
+    background-color: $hackerbg;
     color: $green;
     text-shadow: 0 0 1px rgba( $rebase1, .2 );
     -webkit-text-stroke: 1px rgba( $rebase1, .2 );
@@ -122,7 +123,7 @@ $quoteFont: 'droid_serifitalic', cursive;
     }
     h1,h2,h3,h4,h5,h6,p,li {
       >code, >a>code {
-        background: $black;
+        background: $hackerbg;
         color: $green;
         border: 1px solid $rebase1;
       }
